@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-        <!-- Havoc OS, Android Ten Repos-->
         <project path="device/samsung/universal8895-common" name="Havoc-OS-8895/android_device_samsung_universal8895-common" remote="github" revision="havoc"/>
 	<project path="device/samsung/dreamlte" name="Havoc-OS-8895/android_device_samsung_dreamlte" remote="github" revision="havoc"/>
 	<project path="device/samsung/dream2lte" name="Havoc-OS-8895/android_device_samsung_dream2lte" remote="github" revision="havoc"/>
 	<project path="device/samsung/greatlte" name="Havoc-OS-8895/android_device_samsung_greatlte" remote="github" revision="havoc"/>
 	<project path="kernel/samsung/universal8895" name="diepquynh/android_kernel_samsung_universal8895" remote="github" revision="pie"/>
+        
+	<!--project path="kernel/samsung/universal8895" name="exynos-linux-stable/android_kernel_samsung_universal8895" remote="github" revision="tw90-android"/-->
 	<project path="vendor/samsung/universal8895-common" name="Havoc-OS-8895/android_vendor_samsung_universal8895-common" remote="github" revision="lineage-17.1"/>
 	<project path="vendor/samsung/dreamlte" name="Havoc-OS-8895/android_vendor_samsung_dreamlte" remote="github" revision="lineage-17.1"/>
 	<project path="vendor/samsung/dream2lte" name="Havoc-OS-8895/android_vendor_samsung_dream2lte" remote="github" revision="lineage-17.1"/>
@@ -14,8 +15,6 @@
 	<project path="hardware/samsung" name="Havoc-Devices/android_hardware_samsung" remote="github" revision="ten"/>
 	<project path="patches" name="diepquynh/build_patches" remote="github" revision="lineage-17.1"/>
 
-
-        <!-- Lineage 17.1 - untested -->
         <!--project path="device/samsung/universal8895-common" name="exynos8895/android_device_samsung_universal8895-common" remote="github" revision="lineage-17.1"/-->
 	<!--project path="device/samsung/dreamlte" name="exynos8895/android_device_samsung_dreamlte" remote="github" revision="lineage-17.1"/-->
 	<!--project path="device/samsung/dream2lte" name="exynos8895/android_device_samsung_dream2lte" remote="github" revision="lineage-17.1"/-->
@@ -26,6 +25,9 @@
 	<!--project path="vendor/samsung/dream2lte" name="exynos8895/android_vendor_samsung_dream2lte" remote="github" revision="lineage-17.1"/-->
 	<!--project path="vendor/samsung/greatlte" name="exynos8895/android_vendor_samsung_greatlte" remote="github" revision="lineage-17.1"/-->
 	<!--project path="hardware/samsung" name="LineageOS/android_hardware_samsung" remote="github" revision="lineage-17.1"/-->
+
+        <project name="fidoedidoe/Anykernel3" path="kernel/samsung/universal8895/anyKernel3" remote="github" revision="dream2lte"/>
+  
 
 </manifest>
 
